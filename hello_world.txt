@@ -1,2 +1,17 @@
-Hello World
-Hello World!
+Hello, World	# Exclamation marks need to escaped when using
+				# echo and > or >> in the cli.
+				# To add new lines, the text must be in quotes
+				# ... and don't forget to escape inner quotes
+				# or use '"..."' or "'...'"
+
+Hello, World!
+
+"This should be
+on three lines
+and in quotes.!"
+
+"Single quotes for the echo command
+and double quotes for the text.
+The single quotes won't be visible
+in the file."
+
